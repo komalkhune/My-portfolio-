@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo"><img src="image/illustration/logo_2-removebg-preview.png"/></div>
+        
+            
+            <div class="nav-right">
+                
+                   <div class="menu-btn" onclick="toggleMenu()">
+                      <i class="bi bi-list"></i>
+                   </div>
+                
+            
+                <div class="nav">
+                    <ul class="nav-links">
+                    <li data-aos="fade-up" data-aos-duration="800"><a href="#home">Home</a></li>
+                    <li data-aos="fade-up" data-aos-duration="1200"><a href="#about">About</a></li>
+                    <li data-aos="fade-up" data-aos-duration="1600"><a href="#skill">Skills</a></li>
+                    <li data-aos="fade-up" data-aos-duration="2000"><a href="#project">Project</a></li>
+                    <li data-aos="fade-up" data-aos-duration="2400"><a href="#contact">Contact</a></li>
+                </ul>
+                </div>
+        
+            </div>
+
+        </nav>
+
+         <div class="mview" id="mv">
+            <ul class="nav-item" id="mobileMenu">
+              <li ><a href="#home">Home</a></li>
+              <li ><a href="#about">About</a></li>
+              <li ><a href="#skill">Skills</a></li>
+              <li ><a href="#project">Project</a></li>
+              <li ><a href="#contact">Contact</a></li>
+            </ul>
+         </div>
+
+    </header>
+
+
+    <section id="home" class="hero-sec">
+
+        <div class="home">
+          <h5>Hello, it's Me</h5>
+          <h1 class="name-top" data-aos="fade-left" data-aos-duration="2000">KOMAL</h1>
+          <h1 class="name-bottom mb-3" data-aos="fade-left" data-aos-duration="3000">KHUNE</h1>
+          <h3 class="mb-3">And I'm a <span id="typing"> </span></h3>
+          <p>I'm a web Developer with good skill,
+            <br>create and website design, frontend design , and many more....</p><br>
+          <div class="home-btn">
+            <button class="me-3 btnone" id="btn"><a href="#project">See My Work<i class="bi bi-arrow-right-short"></i></a> </button>
+            <button class="btntwo" id="btn"><a href="./files/My_resume.pdf" download=""><i class="bi bi-file-earmark-text"></i>View Resume</a> </button>
+          </div>   
+        </div>
+
+        <div class="home-img">
+            <div class="box" data-aos="zoom-in" data-aos-duration="2000">
+                 <img src="image/illustration/photo4.jpg"/>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <section id="about" class="about-sec">
+
+        <div class="about-head">
+            <h1 data-aos="fade-down" data-aos-duration="1000">ABOUT</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000"><span>_ME</span></h1>
+        </div>
+
+        <div class="about-content">
+            <div class="about-left">
+                <div class="about-me mb-3" data-aos="zoom-in" data-aos-duration="2000"><span class=" kk"><i class="bi bi-person-fill"></i> ABOUT ME</span></div>
+                <p class="fs-1 fw-bolder mb-4">Turning Ideas Into <span class="digital">Digital Experiences</span></p>
+                <p>I am a passionate <strong>Full Stack Developer</strong>  at the beginning of my journey, eager to learn and grow in the world of web development. Starting from a simple “Hello World”, I am now building responsive and user-friendly websites while continuously improving my skills.</p>
+                <p>I believe great design is not only about appearance but also about functionality. My goal is to transform ideas into meaningful digital experiences through clean code and creative thinking.</p>
+
+                <div class="d-flex justify-content-between align-items-center mt-4">
+                    <div class="text-center">
+                        <p class=" mb-1 fs-3 fw-bolder">10+</p>
+                        <span class="opacity-50">Projects</span>
+                    </div>
+
+                    <div class="text-center">
+                        <p class="mb-1 text-info">Fresher</p>
+                        <span class="opacity-50">Career Stage</span>
+                    </div>
+
+                    <div class="text-center">
+                        <p class="mb-1 text-primary">100%</p>
+                        <span class="opacity-50">Dedication</span>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="about-cards">
+
+                <div class="about-card1"  data-aos="fade-up" data-aos-duration="1000">
+                    <div class="d-flex justify-content-start align-items-center mb-3">
+                        <div class="about-icon1"><i class="bi bi-book"></i></div>
+                        <div class="about-cardhead"><h5>Learning</h5></div>
+                    </div>
+                    <span>Continuously exploring new technologies and improving my frontend skills.</span>
+                </div>
+
+
+                <div class="about-card2"  data-aos="fade-up" data-aos-duration="1000">
+                    <div class="d-flex justify-content-start align-items-center mb-3">
+                        <div class="about-icon2"><i class="bi bi-rocket-takeoff"></i></div>
+                        <div class="about-cardhead"><h5>Growth</h5></div>
+                    </div>
+                    <span>Learning from every project and gaining hands-on experience.</span>
+                </div>
+
+
+                <div class="about-card3"  data-aos="fade-up" data-aos-duration="1000">
+                    <div class="d-flex justify-content-start align-items-center mb-3">
+                        <div class="about-icon3"><i class="bi bi-heart"></i></div>
+                        <div class="about-cardhead"><h5>Passion</h5></div>
+                    </div>
+                    <span>Strong interest in creating attractive and user-friendly interfaces.</span>
+                </div>
+
+
+                <div class="about-card4"  data-aos="fade-up" data-aos-duration="1000">
+                    <div class="d-flex justify-content-start align-items-center mb-3">
+                        <div class="about-icon4"><i class="bi bi-bookmark-check"></i></div>
+                        <div class="about-cardhead"><h5>Quality</h5></div>
+                    </div>
+                    <span>Focused on writing clean, simple, and maintainable code.</span>
+                </div>
+
+            
+            </div>
+        </div>
+
+        
+    </section>
+
+
+
+
+    <section id="skill" class="skill-sec">
+
+          <div class="about-head">
+            <h1 data-aos="fade-down" data-aos-duration="1000">SKILL</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000"><span>_PROTOCOL</span></h1>
+        </div>
+
+        <div class="skill-cards">
+
+
+            <div class="skill-html mt-3 mt-md-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="skill-icon"><i class="fa-brands fa-html5 fa-beat" style="color: rgb(255, 215, 0);"></i></div>
+                    <div class="skill-percentage"><span class="percent">87%</span></div>
+                </div>
+
+                <p class="skill-name">HTML</p>
+
+                 <div class="progress-line">
+                  <div class="progress-htmlfill" style="width: 87%;"></div>
+                 </div>
+
+            </div>
+
+
+
+            <div class="skill-css mt-3 mt-md-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="skill-icon"><i class="fa-brands fa-css3-alt fa-beat" style="color: rgb(0, 255, 255);"></i></div>
+                    <div class="skill-percentage"><span class="percent">85%</span></div>
+                </div>
+
+                <p class="skill-name">CCC</p>
+
+                 <div class="progress-line">
+                  <div class="progress-cssfill" style="width: 85%;"></div>
+                 </div>
+
+            </div>
+
+            <div class="skill-bootstrap mt-3 mt-md-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="skill-icon"><i class="fa-brands fa-bootstrap fa-beat" style="color: rgb(255, 60, 172);"></i></div>
+                    <div class="skill-percentage"><span class="percent">80%</span></div>
+                </div>
+
+                <p class="skill-name">BOOTSTRAP</p>
+
+                 <div class="progress-line">
+                  <div class="progress-bootstrapfill" style="width: 80%;"></div>
+                 </div>
+
+            </div>
+
+
+             <div class="skill-javascript mt-3 mt-md-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="skill-icon"><i class="fa-brands fa-square-js fa-beat" style="color: rgb(128, 0, 128);"></i></div>
+                    <div class="skill-percentage"><span class="percent">80%</span></div>
+                </div>
+
+                <p class="skill-name">JAVASCRIPT</p>
+
+                 <div class="progress-line">
+                  <div class="progress-javascriptfill" style="width: 80%;"></div>
+                 </div>
+
+            </div>
+
+
+            <div class="skill-jquery mt-3 mt-md-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="skill-icon"><i class="devicon-jquery-plain-wordmark fa-brands fa-beat" style="color: #ffff00;"></i></div>
+                    <div class="skill-percentage"><span class="percent">82%</span></div>
+                </div>
+
+                <p class="skill-name">JQUERY</p>
+
+                 <div class="progress-line">
+                  <div class="progress-jqueryfill" style="width: 82%;"></div>
+                 </div>
+
+            </div>
+
+
+            <div class="skill-react mt-3 mt-md-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="skill-icon"><i class="fa-brands fa-react fa-beat" style="color: rgb(0, 128, 128);"></i></div>
+                    <div class="skill-percentage"><span class="percent">80%</span></div>
+                </div>
+
+                <p class="skill-name">REACT</p>
+
+                 <div class="progress-line">
+                  <div class="progress-reactfill" style="width: 80%;"></div>
+                 </div>
+
+            </div>
+
+
+            <div class="skill-node mt-3 mt-md-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="skill-icon"><i class="fa-brands fa-node fa-beat" style="color: rgb(34, 197, 94);"></i></div>
+                    <div class="skill-percentage"><span class="percent">78%</span></div>
+                </div>
+
+                <p class="skill-name">NODEJS</p>
+
+                 <div class="progress-line">
+                  <div class="progress-nodefill" style="width: 78%;"></div>
+                 </div>
+
+            </div>
+
+
+            <div class="skill-express mt-3 mt-md-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="skill-icon"><i class="devicon-express-original fa-brands fa-beat" style="color: #3b82f6;"></i></div>
+                    <div class="skill-percentage"><span class="percent">76%</span></div>
+                </div>
+
+                <p class="skill-name">EXPRESS</p>
+
+                 <div class="progress-line">
+                  <div class="progress-expressfill" style="width: 76%;"></div>
+                 </div>
+
+            </div>
+
+
+
+            <div class="skill-mongo mt-3 mt-md-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="skill-icon"><i class="fa-brands fa-mdb fa-beat" style="color: rgb(251, 146, 60);"></i></div>
+                    <div class="skill-percentage"><span class="percent">80%</span></div>
+                </div>
+
+                <p class="skill-name">MONGODB</p>
+
+                 <div class="progress-line">
+                  <div class="progress-mongofill" style="width: 80%;"></div>
+                 </div>
+
+            </div>
+            <div class="skill-github mt-3 mt-md-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="skill-icon"><i class="fa-brands fa-github fa-beat" style="color: rgb(32, 145, 2);"></i></div>
+                    <div class="skill-percentage"><span class="percent">75%</span></div>
+                </div>
+
+                <p class="skill-name">GITHUB</p>
+
+                 <div class="progress-line">
+                  <div class="progress-githubfill" style="width: 75%;"></div>
+                 </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section id="project" class="project-sec">
+
+         <div class="about-head">
+            <h1 data-aos="fade-down" data-aos-duration="1000">FEATURED</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000"><span>_PROJECTS</span></h1>
+        </div>
+
+        <div class="projects">
+            
+                <div class="p-card">
+
+                    <div class="front-page" >
+                        <div class="card-info">
+                            <div class="p-img"><img class="p-img" src="image/illustration/Restorent 1.png"></div>
+                            <div class="d-flex flex-wrap justify-content-center align-items-center mt-5">
+                             <div class="name-icon "><span><i class="fa-solid fa-utensils" style="color: rgb(51, 62, 209);"></i></span></div>
+                             <div><h2 class="card-title">KlassyCafe </h2></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back-page">
+                        <div class="card-content">
+                            <h2>KlassyCafe</h2>
+                            <p class="card-description">Discover delicious meals, reserve tables, and enjoy the best dining experience.</p>
+
+                            <div class="d-flex justify-content-start mb-2">
+                              <div class="code-icon me-2 "><i class="fa-solid fa-code" style="color:#fb923c;"></i></div>
+                              <div class="tech-title"><span>Tech Stack</span></div>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <hr>
+
+                           <a class="me-3 btnone p-btn" id="btn" href=" https://komalkhune.github.io/KlassyCafe/"><i class="fa-sharp fa-solid fa-desktop"></i> Live Demo <i class="fa-sharp fa-solid fa-right-long fa-bounce" style="color: black;"></i></a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            
+
+
+        
+                <div class="p-card">
+
+                    <div class="front-page" >
+                        <div class="card-info">
+                            <div class="p-img"><img class="p-img" src="image/illustration/carporate 2.png"></div>
+                            <div class="d-flex flex-wrap justify-content-center align-items-center mt-5">
+                             <div class="name-icon "><span><i class="fa-solid fa-bus" style="color:  rgb(51, 62, 209);"></i></span></div>
+                             <div><h2 class="card-title">GrowthEdge </h2></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back-page">
+                        <div class="card-content">
+                            <h2>GrowthEdge</h2>
+                            <p class="card-description">Professional business solutions designed to grow your company and success.</p>
+
+                            <div class="d-flex justify-content-start mb-2">
+                              <div class="code-icon me-2 "><i class="fa-solid fa-code" style="color:#fb923c;"></i></div>
+                              <div class="tech-title"><span>Tech Stack</span></div>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <hr>
+
+                           <a class="me-3 btnone p-btn" id="btn" href="https://komalkhune.github.io/GrowthEdge/"><i class="fa-sharp fa-solid fa-desktop"></i> Live Demo <i class="fa-sharp fa-solid fa-right-long fa-bounce" style="color: black;"></i></a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            
+
+
+
+            
+                <div class="p-card">
+
+                    <div class="front-page" >
+                        <div class="card-info">
+                            <div class="p-img"><img class="p-img" src="image/illustration/Gym 3.png"></div>
+                            <div class="d-flex flex-wrap justify-content-center align-items-center mt-5">
+                             <div class="name-icon "><span><i class="fa-solid fa-dumbbell" style="color: rgb(51, 62, 209);"></i></span></div>
+                             <div><h2 class="card-title">FitZone </h2></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back-page">
+                        <div class="card-content">
+                            <h2>FitZone</h2>
+                            <p class="card-description">Achieve your fitness goals with expert training and modern workout facilities.</p>
+
+                            <div class="d-flex justify-content-start mb-2">
+                              <div class="code-icon me-2 "><i class="fa-solid fa-code" style="color:#fb923c;"></i></div>
+                              <div class="tech-title"><span>Tech Stack</span></div>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <hr>
+
+                          <a class="me-3 btnone p-btn" id="btn" href=" https://komalkhune.github.io/FitZone/"><i class="fa-sharp fa-solid fa-desktop"></i> Live Demo <i class="fa-sharp fa-solid fa-right-long fa-bounce" style="color: black;"></i></a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            
+
+
+
+
+            
+                <div class="p-card">     
+
+                    <div class="front-page" >
+                        <div class="card-info">
+                            <div class="p-img"><img class="p-img" src="image/illustration/Car garage 4.png"></div>
+                            <div class="d-flex flex-wrap justify-content-center align-items-center mt-5">
+                             <div class="name-icon "><span><i class="bi bi-car-front-fill" style="color: rgb(5, 54, 141);"></i></span></div>
+                             <div><h2 class="card-title">Car garage </h2></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back-page">
+                        <div class="card-content">
+                            <h2>Car garage</h2>
+                            <p class="card-description">Reliable car repair and maintenance services to keep your vehicle running smoothly.</p>
+
+                            <div class="d-flex justify-content-start mb-2">
+                              <div class="code-icon me-2 "><i class="fa-solid fa-code" style="color:#fb923c;"></i></div>
+                              <div class="tech-title"><span>Tech Stack</span></div>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <hr>
+
+                           <a class="me-3 btnone p-btn" id="btn" href=" https://komalkhune.github.io/CarServicing/"><i class="fa-sharp fa-solid fa-desktop"></i> Live Demo <i class="fa-sharp fa-solid fa-right-long fa-bounce" style="color: black;"></i></a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            
+
+
+
+
+            
+                <div class="p-card">
+
+                    <div class="front-page" >
+                        <div class="card-info">
+                            <div class="p-img"><img class="p-img" src="image/illustration/Sport 5.png"></div>
+                            <div class="d-flex flex-wrap justify-content-center align-items-center mt-5">
+                             <div class="name-icon "><span><i class="bi bi-cookie" style="color: rgb(5, 54, 141);"></i></span></div>
+                             <div><h2 class="card-title">PlayZone </h2></div>
+                            </div>
+                        </div>
+                    </div><i class="fa-solid fa-badminton" style="color: rgb(5, 54, 141);"></i>
+
+                    <div class="back-page">
+                        <div class="card-content mt-0">
+                            <h2>PlayZone</h2>
+                            <p class="card-description">Stay updated with the latest sports news, events, and team activities.</p>
+
+                            <div class="d-flex justify-content-start mb-2">
+                              <div class="code-icon me-2 "><i class="fa-solid fa-code" style="color:#fb923c;"></i></div>
+                              <div class="tech-title"><span>Tech Stack</span></div>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <hr>
+
+                           <a class="me-3 btnone p-btn" id="btn" href=" https://komalkhune.github.io/PlayZone/"><i class="fa-sharp fa-solid fa-desktop"></i> Live Demo <i class="fa-sharp fa-solid fa-right-long fa-bounce" style="color: black;"></i></a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            
+
+
+
+
+            
+                <div class="p-card">
+
+                    <div class="front-page" >
+                        <div class="card-info">
+                            <div class="p-img"><img class="p-img" src="image/illustration/Game 6.png"></div>
+                            <div class="d-flex flex-wrap justify-content-center align-items-center mt-5">
+                             <div class="name-icon "><span><i class="bi bi-controller" style="color: rgb(51, 62, 209);"></i></span></div>
+                             <div><h2 class="card-title">GameVerse</h2></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back-page">
+                        <div class="card-content">
+                            <h2>GameVerse</h2>
+                            <p class="card-description">Experience exciting games, challenges, and endless entertainment.</p>
+
+                            <div class="d-flex justify-content-start mb-2">
+                              <div class="code-icon me-2 "><i class="fa-solid fa-code" style="color:#fb923c;"></i></div>
+                              <div class="tech-title"><span>Tech Stack</span></div>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <hr>
+
+                           <a class="me-3 btnone p-btn" id="btn" href="https://komalkhune.github.io/GameVerse/"><i class="fa-sharp fa-solid fa-desktop"></i> Live Demo <i class="fa-sharp fa-solid fa-right-long fa-bounce" style="color: black;"></i></a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            
+
+
+
+
+          
+                <div class="p-card">
+
+                    <div class="front-page" >
+                        <div class="card-info">
+                            <div class="p-img"><img class="p-img" src="image/illustration/Health 7.png"></div>
+                            <div class="d-flex flex-wrap justify-content-center align-items-center mt-5">
+                             <div class="name-icon "><span><i class="fa-solid fa-stethoscope" style="color: rgb(51, 62, 209);"></i></span></div>
+                             <div><h2 class="card-title">Healthcare </h2></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back-page">
+                        <div class="card-content">
+                            <h2>Healthcare</h2>
+                            <p class="card-description">Providing trusted medical services and healthcare support for a healthier life.</p>
+
+                            <div class="d-flex justify-content-start mb-2">
+                              <div class="code-icon me-2 "><i class="fa-solid fa-code" style="color:#fb923c;"></i></div>
+                              <div class="tech-title"><span>Tech Stack</span></div>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <hr>
+
+                           <a class="me-3 btnone p-btn" id="btn" href="https://komalkhune.github.io/Healthcare/"><i class="fa-sharp fa-solid fa-desktop"></i> Live Demo <i class="fa-sharp fa-solid fa-right-long fa-bounce" style="color: black;"></i></a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            
+
+
+
+
+
+            
+                <div class="p-card">
+
+                    <div class="front-page" >
+                        <div class="card-info">
+                            <div class="p-img"><img class="p-img" src="image/illustration/Bank 8.png"></div>
+                            <div class="d-flex flex-wrap justify-content-center align-items-center mt-5">
+                             <div class="name-icon "><span><i class="bi bi-cash-coin" style="color: rgb(51, 62, 209);"></i></span></div>
+                             <div><h2 class="card-title">Trust Finance </h2></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back-page">
+                        <div class="card-content">
+                            <h2>Trust Finance</h2>
+                            <p class="card-description">Secure and convenient banking solutions for managing your finances anytime.</p>
+
+                            <div class="d-flex justify-content-start mb-2">
+                              <div class="code-icon me-2 "><i class="fa-solid fa-code" style="color:#fb923c;"></i></div>
+                              <div class="tech-title"><span>Tech Stack</span></div>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <hr>
+
+                           <!-- <button class="me-3 btnone" id="btn"><a href=" https://komalkhune.github.io/Trust-Finance-/"><i class="fa-sharp fa-solid fa-desktop"></i> Live Demo <i class="fa-sharp fa-solid fa-right-long fa-bounce" style="color: black;"></i></a></button> -->
+                        <a class="me-3 btnone p-btn" id="btn" href=" https://komalkhune.github.io/Trust-Finance-/"><i class="fa-sharp fa-solid fa-desktop"></i> Live Demo <i class="fa-sharp fa-solid fa-right-long fa-bounce" style="color: black;"></i></a>
+
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="timeline-sec">
+
+          <div class="about-head">
+            <h1 data-aos="fade-down" data-aos-duration="1000">EDUCATION</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000"><span>_JOURNEY</span></h1>
+        </div>
+
+
+        <div class="timeline">
+    
+         
+           <!-- 10th -->
+            <div class="timeline-item left" data-aos="fade-up"  data-aos-duration="2000">
+                <div class="content">
+                    <span class="date yellow">2017</span>
+                    <h2>10th (SSC)</h2>
+                    <p>Completed 10th from Maharashtra State Board.</p>
+                </div>
+                <div class="dot yellow"></div>
+            </div>
+            
+            <!-- 12th -->
+            <div class="timeline-item right" data-aos="fade-up"  data-aos-duration="2000">
+                <div class="content">
+                    <span class="date red">2019</span>
+                    <h2>12th (HSC)</h2>
+                    <p>Completed 12th from Maharashtra State Board.</p>
+                </div>
+                <div class="dot red"></div>
+            </div>
+            
+            <!-- Diploma -->
+            <div class="timeline-item left" data-aos="fade-up"  data-aos-duration="2000">
+                <div class="content">
+                    <span class="date cyan">2019 - 2022</span>
+                    <h2>Diploma in Computer Technology</h2>
+                    <p>Focused on programming, web development, and software fundamentals.</p>
+                </div>
+                <div class="dot cyan"></div>
+            </div>
+            
+            <!-- Degree -->
+            <div class="timeline-item right" data-aos="fade-up"  data-aos-duration="2000">
+                <div class="content">
+                    <span class="date orange">2022 - 2025</span><br>
+                    <h2>Bachelor of Technology<br> (Information Technology)</h2><br>
+                    <p>Pursuing degree with focus on full stack development and real-world projects.</p>
+                </div>
+                <div class="dot orange"></div>
+            </div>
+    
+        </div>
+    </section>
+
+
+
+
+    <section id="contact" class="contact">
+
+         <div class="about-head">
+            <h1 data-aos="fade-down" data-aos-duration="2000">CONTACT</h1>
+            <h1 data-aos="fade-up" data-aos-duration="2000"><span>_ME</span></h1>
+        </div>
+
+        <div class="d-md-flex justify-content-between">
+
+        
+            <div class="mb-5 contact-detail">
+
+                 <div class="about-me mb-3" data-aos="zoom-in" data-aos-duration="2000"><span class=" kk"><i class="bi bi-circle-fill text-warning"></i></i> Immediately Join</span></div>
+
+                <p class="fs-1 fw-bolder mb-4">Let's <span class="digital">Work </span>Together</p>
+                <p class="opacity-75 mb-5">Have a project idea or looking for a passionate developer? I’m always excited to learn, collaborate, and work on creative and meaningful projects.</p>
+
+                <div class="d-flex justify-content-start mb-3" data-aos="fade-up"  data-aos-duration="2000">
+                    <a class="contact-icon" href="mailto:khunekomal08@gmail.com" ><i class="bi bi-envelope"></i></a>
+                    <div>
+                        <span class="fs-6 opacity-50">EMAIL ME</span>
+                        <P class="mail"><a href="mailto:khunekomal08@gmail.com">khunekomal08@gmail.com</a></P>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-start mb-3" data-aos="fade-up"  data-aos-duration="2000">
+                    <a class="contact-icon" href="tel: 7666779693"><i class="bi bi-telephone"></i></a>
+                    <div>
+                        <span class="fs-6 opacity-50">CALL ME</span>
+                        <P class="no"><a href="tel: 7666779693">+7666779693</a></P>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-start mb-3" data-aos="fade-up"  data-aos-duration="2000">
+                    <a class="contact-icon" href="https://www.linkedin.com/in/Komal Khune"><i class="bi bi-linkedin"></i></a>
+                    <div>
+                        <span class="fs-6 opacity-50">SEE in</span>
+                        <P class="no"><a href="https://www.linkedin.com/in/Komal Khune">linkedin.com/in/komal</a></P>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="form" data-aos="zoom-in" data-aos-duration="2000">
+
+                <form class="contact-form" id="contactForm" method="" action="" >
+                  <input type="text" name="name" id="name"   placeholder=" Your Name"/>
+                  <input type="email" name="email" id="email" placeholder="Your Email"/>
+                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                  <button id="fbtn" type="submit"><i class="bi bi-send text-dark fw-bolder"></i> Send Message</button>
+                </form>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+    
+
+
+
+
+
+     <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+   
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
