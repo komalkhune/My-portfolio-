@@ -739,7 +739,6 @@ header{
      box-shadow: 0 0 10px rgb(32, 145, 2), 0 0 20px rgb(32, 145, 2);
 }
 
-
 /* GIT */
 
 .skill-git {
@@ -819,13 +818,23 @@ header{
 
 /* Front page */
 .front-page {
+    /* background-image: url(../image/illustration/carporate\ 2.png);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top; */
+
+
    height: 350px;
     background-color: #1a1a2e;
     border-radius: 20px;
+    /* padding: 20px; */
+    /* padding: 20px; */
+
     display: flex;
     flex-direction: column;
-    justify-content: start; 
-   
+    justify-content: start; /* center horizontally */
+    /* align-items:flex-end; */
 
 }
 
@@ -1326,7 +1335,7 @@ textarea:focus{
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .skill-html, .skill-css, .skill-bootstrap, .skill-javascript, .skill-jquery, .skill-react, .skill-node, .skill-express, .skill-mongo, .skill-github, .skill-git {
+    .skill-html, .skill-css, .skill-bootstrap, .skill-javascript, .skill-jquery, .skill-react, .skill-node, .skill-express, .skill-mongo, .skill-github, .skill-git{
         width: 48%;
     }
 
