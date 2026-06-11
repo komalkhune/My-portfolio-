@@ -740,6 +740,33 @@ header{
 }
 
 
+/* GIT */
+
+.skill-git {
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #222;
+    background-color: rgb(255 255 255 / 0.05);
+}
+
+.skill-git:hover{
+  border: 1px solid purple;
+}
+.skill-git .skill-percentage .percent {
+    color: purple;
+    font-weight: bold;
+}
+.progress-gitfill {
+    height: 100%;
+    border-radius: 10px;
+    background: purple;
+    transition: width 1s ease;
+}
+.skill-git:hover .progress-gitfill {
+     box-shadow: 0 0 10px purple, 0 0 20px purple;
+}
+
+
 
 
 
@@ -792,23 +819,13 @@ header{
 
 /* Front page */
 .front-page {
-    /* background-image: url(../image/illustration/carporate\ 2.png);
-
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top; */
-
-
    height: 350px;
     background-color: #1a1a2e;
     border-radius: 20px;
-    /* padding: 20px; */
-    /* padding: 20px; */
-
     display: flex;
     flex-direction: column;
-    justify-content: start; /* center horizontally */
-    /* align-items:flex-end; */
+    justify-content: start; 
+   
 
 }
 
@@ -1309,7 +1326,7 @@ textarea:focus{
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .skill-html, .skill-css, .skill-bootstrap, .skill-javascript, .skill-jquery, .skill-react, .skill-node, .skill-express, .skill-mongo{
+    .skill-html, .skill-css, .skill-bootstrap, .skill-javascript, .skill-jquery, .skill-react, .skill-node, .skill-express, .skill-mongo, .skill-github, .skill-git {
         width: 48%;
     }
 
@@ -1458,7 +1475,7 @@ textarea:focus{
        width: 50%;
     }
 
-     .skill-html, .skill-css, .skill-bootstrap, .skill-javascript, .skill-jquery, .skill-react, .skill-node, .skill-express, .skill-mongo, .skill-github{
+     .skill-html, .skill-css, .skill-bootstrap, .skill-javascript, .skill-jquery, .skill-react, .skill-node, .skill-express, .skill-mongo, .skill-github, .skill-git{
         width: 31%;
     }
 
