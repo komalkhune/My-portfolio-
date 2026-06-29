@@ -775,8 +775,12 @@ header{
     width: 100%;
     padding: 60px 10% 60px;
 }
-
-
+.reactpro{
+    width: 100%;
+}
+.react{
+   width:100%;
+}
 
 .p-card {
     width: 100%;
@@ -818,24 +822,12 @@ header{
 
 /* Front page */
 .front-page {
-    /* background-image: url(../image/illustration/carporate\ 2.png);
-
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top; */
-
-
    height: 350px;
     background-color: #1a1a2e;
     border-radius: 20px;
-    /* padding: 20px; */
-    /* padding: 20px; */
-
     display: flex;
     flex-direction: column;
-    justify-content: start; /* center horizontally */
-    /* align-items:flex-end; */
-
+    justify-content: start;
 }
 
 /* Text info */
@@ -1393,9 +1385,13 @@ textarea:focus{
     width: 48%;
 }
 
-.projects, .reactpro{
+.projects{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+.reactpro{
+    display: flex;
     justify-content: space-between;
 }
 .p-card, .react{
