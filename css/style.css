@@ -1393,15 +1393,14 @@ textarea:focus{
     width: 48%;
 }
 
-.projects{
+.projects, .reactpro{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.p-card{
+.p-card, .react{
     width: 48%;
     height: 340px;
-    
 }
 .backend{
  height: 380px;
@@ -1499,6 +1498,9 @@ textarea:focus{
 .p-card{
     width: 31%;
     margin-bottom: 50px;
+}
+.react{
+    width: 48%;
 }
 .projects{
     margin-bottom: 60px;
