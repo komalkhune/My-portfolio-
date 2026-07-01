@@ -1497,7 +1497,7 @@ textarea:focus{
 }
 .react{
     width: 48%;
-    height:420px;
+    height:400px;
 }
 .projects{
     margin-bottom: 60px;
@@ -1521,5 +1521,8 @@ textarea:focus{
       .card-content hr{
         margin-bottom:30px;
       }
+      .react{
+      height:430px;
+    }
 
 }
