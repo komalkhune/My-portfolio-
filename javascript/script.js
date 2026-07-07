@@ -1,3 +1,6 @@
+console.log("JS Loaded");
+console.log(document.getElementById("contactForm"));
+
 function toggleMenu(){
     document.querySelector(".mview")
     .classList.toggle("show");
@@ -17,14 +20,19 @@ AOS.init();
 
 
 
-const submit=(event)=>{
+document.getElementById("contactForm").addEventListener("submit", submit);
 
-     event.preventDefault();
+function submit(event) {
+    event.preventDefault();
 
 
 const name=document.getElementById("name").value.trim();
 const email=document.getElementById("email").value.trim();
 const message=document.getElementById("message").value.trim();
+
+console.log("name",name);
+console.log("email",email);
+console.log(email);
 
 if(name === "" || email === "" || message === ""){
  alert("Please fill all field")
@@ -32,12 +40,6 @@ if(name === "" || email === "" || message === ""){
 
 
      emailjs.init("hlDC36PxZOh0TiyLb");
-
-    // document
-    // .getElementById("contactForm")
-    // .addEventListener("submit", function(e){
-    
-    //     e.preventDefault();
     
         emailjs.send("service_w9q7lre", "template_wbj35os", {
             from_name: document.getElementById("name").value,
@@ -54,8 +56,10 @@ if(name === "" || email === "" || message === ""){
             alert("Failed to send message");
         })
     
-    // });
 
 }
 
 }
+
+
+
