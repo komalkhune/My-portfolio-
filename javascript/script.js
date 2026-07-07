@@ -17,12 +17,14 @@ AOS.init();
 
 
 
-const submit=()=>{
+const submit=(event)=>{
+
+     event.preventDefault();
 
 
-const name=document.getElementById("name");
-const email=document.getElementById("email");
-const message=document.getElementById("message");
+const name=document.getElementById("name").value.trim();
+const email=document.getElementById("email").value.trim();
+const message=document.getElementById("message").value.trim();
 
 if(name === "" || email === "" || message === ""){
  alert("Please fill all field")
@@ -31,11 +33,11 @@ if(name === "" || email === "" || message === ""){
 
      emailjs.init("hlDC36PxZOh0TiyLb");
 
-    document
-    .getElementById("contactForm")
-    .addEventListener("submit", function(e){
+    // document
+    // .getElementById("contactForm")
+    // .addEventListener("submit", function(e){
     
-        e.preventDefault();
+    //     e.preventDefault();
     
         emailjs.send("service_w9q7lre", "template_wbj35os", {
             from_name: document.getElementById("name").value,
@@ -52,7 +54,7 @@ if(name === "" || email === "" || message === ""){
             alert("Failed to send message");
         })
     
-    });
+    // });
 
 }
 
